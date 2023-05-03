@@ -11,6 +11,8 @@ namespace LineComparison279
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To Line Comparison Problem");
+            Line line = new Line(1, 2, 5, 4);
+            line.Length();
             Console.ReadLine();
         }
     }
